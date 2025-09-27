@@ -1,10 +1,10 @@
-1.create two pubic "ubuntu" servers in project-vpc    one is for frontend and another one is for backend
-2 create rds database in project-vpc
-3 copy the rds end point
-4.create route 53 private hosted zone with project vpc name is "rds.com"
-5. create record  sub domain is book,, select cnamerecord type ,,,, in the value paste your rds end point ,, then create record
-6. connect to front end server
-
+1.create two pubic "ubuntu" servers in project-vpc(one is for frontend and another one is for backend)
+2.in ubuntu server no need to install git
+3.create rds database in project-vpc
+4.copy the rds end point
+5.create route 53 private hosted zone with project vpc name is "rds.com"
+6.create record  sub domain is book,, select cnamerecord type ,,,, in the value paste your rds end point ,, then create record
+7.connect to front end server
 
 ---------------------------------- FrontEnd---------------------------------------
 
